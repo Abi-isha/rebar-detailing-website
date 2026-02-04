@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RayMar Rebar Detailing</title>
+    <link rel="preload" href="style.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/> <!-- or use svg icon <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css">
+        -->
+       
+</head>
+<body>
+    <header class="top-header">
+
+        <!-- LOGO LEFT -->
+        <div class="logo-box">
+            <img src="image/logo2.PNG" alt="Raymar Logo" loading="lazy" decoding="async">
+        </div>
+        <!-- Hamburger -->
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <!-- NAV RIGHT -->
+        <nav class="nav" id="navMenu">
+            <a href="#home" onclick="closeMenu()">Home</a>
+            <a href="#about" onclick="closeMenu()">About Us</a>
+            <a href="#services" onclick="closeMenu()">Services</a>
+            <a href="#projects" onclick="closeMenu()">Projects</a>
+            <a href="#contact" onclick="closeMenu()">Contact</a>
+
+        </nav>
+    </header>
+
+
+        <header id="home" class="hero-section">
+                <!-- LEFT IMAGE -->
+                <div class="hero-image">
+                    <img src="image/detailing2.jpg" alt="Rebar Detailing" loading="lazy"
+                    decoding="async">
+                </div>       
+                <!-- RIGHT CONTENT -->
+                <div class="hero-content">
+                    <div class="hero-brand">
+                        <h1>
+                            RayMar Rebar<br>
+                            <span class="highlight">Detailing</span> and<br>
+                            <span class="highlight">Estimation</span> Services
+                        </h1>
+                    </div>
+                    <h4>
+                        Let's make your vision <br> <span>Accurate . Cost-Effective . On-Time Delivery</span>
+                    </h4>
+        
+                    <button class="hero-btn" onclick="scrollToContact()">
+                        Get In Touch
+                    </button>
+                </div>
+        </header>
+        
+               
+        <section id="about"  class="about-section">
+            <div class="about-content">
+            <h2 class="blink">OUR COMPANY</h2>
+            <p>
+                We are Founded in 2020,<strong> RayMar Rebar Detailing & Estimation Service</strong> was established by a team of experts with a collective <strong>10+ years industry
+                experience in structural engineering and detailing</strong>. RayMar Rebar Detailing has an expansive, accurate and constructible detailing portfolio that includes reinforced concrete structural across commercial, industrial and infrastructure projects in the United States and Canada all regions
+                 
+            </p>
+            <p>
+                At Raymar Rebar Detailing & Estimation, we are driven by precision and dedicated to delivering top-quality detailing. From our founders and engineers to our support team, everyone works together with one goal accurate results from start to finish. Every project <strong> take on is built on trust, strong performance, and a commitment </strong> the highest standards.
+            </p>
+            <p>
+                We treat every project with equal importance, no matter its size or complexity. Our team at Raymar Rebar Detailing & Estimation provides complete solutions for all your detailing needs at any stage of the process. For us, each project is a chance to apply our expertise, explore new possibilities in detailing, and add real value to our clients success.
+            </p>
+            </div>  
+
+            <div class="about-slider">
+                <img src="images/picture1.JPG" class="slide active" alt="image 2" loading="lazy" decoding="async">
+                <img src="images/picture2.png" class="slide" alt="image 3" loading="lazy" decoding="async">
+                <img src="images/picture3.JPG" class="slide" alt="image 4" loading="lazy" decoding="async">
+
+                <span class="slider-arrow left" onclick="prevSlide()">&#10094;</span>
+                <span class="slider-arrow right" onclick="nextSlide()">&#10095;</span>
+            </div>
+        </section >
+
+        <section id="services" class="feature">
+            <h2>Our Services</h2>
+            <p class="service-intro"><strong>"RayMar"</strong> teams bring extensive expertise in reinforced concrete construction, having successfully delivered nearly <strong>150+ projects in rebar estimation and detailing</strong></p>
+          
+            <div class="services-container">
+          
+              <div class="future-cards">
+                <i class="fas fa-business-time"></i>
+                <h3>High-Accuracy Quality Takeoffs</h3>
+                <div class="service-text">
+                    Reinforcement estimation for concrete structures entails determining the required steel and categorizing it by type, bar size, and bending specification, arranged both element-wise and segment-wise. We also include mesh, accessory, and concrete quantity details whenever they are part of the project scope. At RayMar Rebar, our experienced estimators utilize cutting-edge tools such as ASA, RebarCAD/CADSRC, Bluebeam, and Excel to generate accurate, detailed rebar estimates in diverse formats. This empowers our clients with comprehensive information, enabling them to bid with confidence and secure projects effectively.
+                </div>                 
+                <button class="read-toggle">Read More</button>
+                <!-- Sample Work -->
+                <a href="samples/Estimation/NEW DRYER B VENEER MANUFACTURING BUILDING.pdf" class="sample-btn" download>
+                    <i class="fas fa-download"></i> Sample Work 
+                </a>
+              </div>
+          
+              <div class="future-cards">
+                <i class="fas fa-building"></i>
+                <h3>Code-Compliant Detailing</h3>
+                <div class="service-text">
+                    We create reinforcement placement drawings based on the design plans, which contractors then use to fix the bars at the site. These drawings give clear instructions about the number, size, shape, and position of the rebar to be placed in the formwork before concreting. Our software also helps prepare Bar Bending Schedules in different customized formats, which can be fed into automated machines in fabrication shops. At Rebar Detailing, we use ASA or Rebar CAD/CADSRC to make shop drawings that follow local structural codes and construction standards. We follow a three-step review system to check quality and ensure smooth communication before delivering the final drawings to the client.
+                </div>
+                <button class="read-toggle">Read More</button>
+                <!-- Sample Work -->
+                <a href="Sample works/Detailing Samples.zip" class="sample-btn" download>
+                    <i class="fas fa-download"></i> Sample Work 
+                </a>
+              </div>
+          
+              <div class="future-cards">
+                <i class="fas fa-clipboard"></i>
+                <h3>Fabrication-Ready Drawings</h3>
+                <p>
+                    Team RayMar Rebar knows how important it is to plan the Shop Drawings for engineer approval and, more importantly, to schedule the Field Use drawings together with the Bar List for fabrication. Our project managers carefully make sure there is enough time allowed for approvals, fabrication, and the delivery of materials.
+                </p>
+              </div>
+          
+              <div class="future-cards">
+                <i class="fas fa-edit"></i>
+                <h3>Responsive Coordination</h3>
+                <p>
+                    Active coordination with engineers and project teams to address revisions, RFIs and constructability concers. Drawing coordination and Revision support.
+                </p>
+              </div>
+          
+            </div>
+          </section>
+          
+          <section class="process-section">
+            <h2>Our 3-Step Rebar Detailing Process</h2>
+        
+            <div class="process-container">
+        
+                <div class="process-step">
+                    <span class="step-number">01</span>
+                    <h3>Structural Review & Estimation</h3>
+                    <p>
+                        We begin by thoroughly reviewing your structural drawings, specifications, and
+                        project requirements to produce accurate rebar quantity take-offs and define
+                        detailing needs for every structural element.
+                    </p>
+                </div>
+        
+                <div class="process-step">
+                    <span class="step-number">02</span>
+                    <h3>Detailed Rebar Modeling & Coordination</h3>
+                    <p>
+                        Using precise modeling tools, we prepare comprehensive rebar shop drawings,
+                        bar bending schedules (BBS), and placement plans, coordinating with structural
+                        and architectural inputs to ensure constructability.
+                    </p>
+                </div>
+        
+                <div class="process-step">
+                    <span class="step-number">03</span>
+                    <h3>Review, Refinement & Final Delivery</h3>
+                    <p>
+                        We support engineering reviews and revisions, refine drawings based on feedback,
+                        and issue fabrication-ready detailing packages optimized for smooth site execution.
+                    </p>
+                </div>
+        
+            </div>        
+        </section>
+  
+        <section class="video-section">
+            
+            <video autoplay muted loop playsinline preload="none" class="bg-video">
+                <source src="image/rebar.mp4" type="video/mp4">
+            </video>       
+            <!-- Overlay Content -->
+            <div class="video-overlay">
+                <h3>Our Detailing and Estimation Services</h3>    
+                <p> Explore our detailed Rebar Estimation and Detailing services designed to support accurate costing, fabrication, and smooth site execution</p>  
+                <a href="services.html" class="video-btn">Read More</a>
+        
+            </div>
+        </section>
+        
+
+        <section id="projects" class="projects-section">
+            <h2>Our Projects</h2>
+        
+            <div class="projects-grid">
+        
+                <a href="residential.html" class="project-card residential">
+                    <div class="overlay"></div>
+                    <div class="project-content">
+                        <h3>Residential Projects</h3>
+                        <span>USA</span>
+                        <div class="arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+        
+                <a href="commercial.html" class="project-card commercial">
+                    <div class="overlay"></div>
+                    <div class="project-content">
+                        <h3>Commercial Projects</h3>
+                        <span>USA</span>
+                        <div class="arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+        
+                <a href="industrial.html" class="project-card industrial">
+                    <div class="overlay"></div>
+                    <div class="project-content">
+                        <h3>Industrial Projects</h3>
+                        <span>USA</span>
+                        <div class="arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+        
+                <a href="infrastructure.html" class="project-card infrastructure">
+                    <div class="overlay"></div>
+                    <div class="project-content">
+                        <h3>Infrastructure Projects</h3>
+                        <span>USA</span>
+                        <div class="arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+        
+            </div>
+        </section>    
+
+        <section class="success-section">
+            <h2 class="success-title">Project Success</h2>
+        
+            <div class="success-row">
+        
+                <div class="success-item">
+                    <i class="fas fa-user-tie"></i>
+                    <span class="number"><span class="counter" data-target="10">0</span>+</span>
+                    <span class="label">Years Experience</span>
+                </div>
+        
+                <div class="success-item">
+                    <i class="fas fa-hard-hat"></i>
+                    <span class="number"><span class="counter" data-target="150">0</span>+</span>
+                    <span class="label">Projects Completed</span>
+                </div>
+        
+                <div class="success-item">
+                    <i class="fas fa-smile-beam"></i>
+                    <span class="number"><span class="counter" data-target="100">0</span>%</span>
+                    <span class="label">Client Satisfaction</span>
+                </div>
+            </div>
+        </section>   
+
+        <section id="contact" class="container">
+            <div class="contact-wrapper">
+                <!-- LEFT : Contact Details -->
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+        
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@raymardetailing.com">info@raymardetailing.com</a>
+                    </div>
+        
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>RayMar Rebar Detailing & Estimation Services,<br>
+                           Chennai, Tamil Nadu, India
+                        </p>
+                    </div>
+                </div>
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <input type="text" placeholder="Your Name *" required>
+                    <input type="text" placeholder="Company Name">
+                    <input type="email" placeholder="Your Email *" required>
+                    <input type="text" placeholder="Contact Number">
+                    <textarea placeholder="Comments"></textarea>
+                    <button type="submit" id="sendBtn">SEND MESSAGE</button>
+                </form>
+                <p id="successMessage" class="success-msg">Thank you! Your message has been sent successfully.</p>
+                <p id="errorMessage" class="error-msg"> ❌ Sorry! Message not sent. Please try again.</p>
+            </div>          
+        </section>
+        
+        <footer>
+        <section class="cta-footer">
+            <div class="cta-content">
+                <h1>Let’s Build Something Great Together!</h1>
+        
+                <a href="#contact" class="cta-btn">CONTACT US</a>
+        
+                <div class="contact-info">
+                    <h3>Address</h3>
+                    <p>
+                        Chennai, Tamil Nadu<br>
+                        India
+                    </p>
+        
+                    <h3>Get In Touch</h3>
+                    <p>info@raymardetailing.com</p>
+                </div>
+        
+                <div class="footer-links">
+                    <a href="#about">ABOUT US</a>
+                    <a href="#services">SERVICES</a>
+                    <a href="#projects">PROJECTS</a>
+                    <a href="#contact">CONTACT</a> 
+                </div>
+            </div>
+        
+            <!-- Scroll to top -->
+            <button class="scroll-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+                &#8679;
+            </button>
+        </section>
+        </footer>
+
+        <script src="script.js" defer></script>
+</body>
+</html>
